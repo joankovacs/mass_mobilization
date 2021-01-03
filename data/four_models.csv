@@ -1,0 +1,197 @@
+,model_type,region,baseline_response,training_score,testing_score,baseline,model_success,best_params
+0,logreg,Europe,no accomodation,0.995819397993311,0.9298245614035088,0.9220480668756531,no,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+1,logreg,Europe,no arrests,0.9765886287625418,0.9039264828738512,0.8854754440961338,no,"{'log__penalty': 'l1', 'log__solver': 'liblinear'}"
+2,logreg,Europe,no beatings,0.9908026755852842,0.9649122807017544,0.967816091954023,no,"{'log__penalty': 'l1', 'log__solver': 'liblinear'}"
+3,logreg,Europe,no crowd_dispersal,0.9729654403567447,0.8621553884711779,0.7684430512016719,yes,"{'log__penalty': 'l1', 'log__solver': 'liblinear'}"
+4,logreg,Europe,ignore,0.9916387959866221,0.83375104427736,0.6764890282131661,yes,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+5,logreg,Europe,no killings,0.999721293199554,0.9941520467836257,0.9928944618599791,no,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+6,logreg,Europe,no shootings,0.9991638795986622,0.9899749373433584,0.9914315569487984,no,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+7,logreg,Africa,no accomodation,0.9783950617283951,0.8771466314398944,0.8733884297520661,no,"{'log__penalty': 'l1', 'log__solver': 'liblinear'}"
+8,logreg,Africa,no arrests,0.9731040564373897,0.8890356671070013,0.8320661157024793,yes,"{'log__penalty': 'l1', 'log__solver': 'liblinear'}"
+9,logreg,Africa,no beatings,0.9841269841269841,0.9128137384412153,0.9226446280991736,no,"{'log__penalty': 'l1', 'log__solver': 'liblinear'}"
+10,logreg,Africa,no crowd_dispersal,0.972663139329806,0.7793923381770145,0.5639669421487603,yes,"{'log__penalty': 'l1', 'log__solver': 'liblinear'}"
+11,logreg,Africa,no ignore,0.9986772486772487,0.8058124174372523,0.5857851239669422,yes,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+12,logreg,Africa,no killings,1.0,0.9273447820343461,0.8981818181818182,no,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+13,logreg,Africa,no shootings,0.9845679012345679,0.9101717305151915,0.871404958677686,no,"{'log__penalty': 'l1', 'log__solver': 'liblinear'}"
+14,logreg,Asia,no accomodation,0.9731232622798888,0.8569444444444444,0.8756080611535789,no,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+15,logreg,Asia,no arrests,0.9318813716404077,0.8527777777777777,0.8485059068797776,no,"{'log__penalty': 'l1', 'log__solver': 'liblinear'}"
+16,logreg,Asia,no beatings,0.9782205746061168,0.9291666666666667,0.9204308547602502,no,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+17,logreg,Asia,no crowd_dispersal,0.9703429101019463,0.7763888888888889,0.7029186935371786,yes,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+18,logreg,Asia,ignore,0.9142724745134384,0.7694444444444445,0.5059068797776234,yes,"{'log__penalty': 'l1', 'log__solver': 'liblinear'}"
+19,logreg,Asia,no killings,0.9731232622798888,0.9444444444444444,0.9444058373870744,no,"{'log__penalty': 'l1', 'log__solver': 'liblinear'}"
+20,logreg,Asia,no shootings,0.9893419833178869,0.9444444444444444,0.9503127171646977,no,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+21,logreg,South America,no accomodation,0.9457167090754877,0.8956743002544529,0.8867684478371501,no,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+22,logreg,South America,no arrests,0.9406276505513147,0.8982188295165394,0.8842239185750637,no,"{'log__penalty': 'l1', 'log__solver': 'liblinear'}"
+23,logreg,South America,no beatings,0.9949109414758269,0.9821882951653944,0.9872773536895675,no,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+24,logreg,South America,no crowd_dispersal,0.9516539440203562,0.8091603053435115,0.6762086513994912,yes,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+25,logreg,South America,ignore,0.9185750636132316,0.732824427480916,0.5674300254452926,yes,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+26,logreg,South America,no killings,0.9669211195928753,0.9516539440203562,0.9472010178117048,no,"{'log__penalty': 'l1', 'log__solver': 'liblinear'}"
+27,logreg,South America,no shootings,0.993214588634436,0.9720101781170484,0.9713740458015268,no,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+28,logreg,MENA,no accomodation,0.9605425400739828,0.9077490774907749,0.9168207024029575,no,"{'log__penalty': 'l1', 'log__solver': 'liblinear'}"
+29,logreg,MENA,no arrests,0.9876695437731196,0.8560885608856088,0.8428835489833642,no,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+30,logreg,MENA,no beatings,0.9642416769420469,0.922509225092251,0.9131238447319778,no,"{'log__penalty': 'l1', 'log__solver': 'liblinear'}"
+31,logreg,MENA,no crowd_dispersal,0.9839704069050554,0.8007380073800738,0.6913123844731978,yes,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+32,logreg,MENA,no ignore,0.9839704069050554,0.7933579335793358,0.5600739371534196,yes,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+33,logreg,MENA,no killings,0.9630086313193588,0.9040590405904059,0.8826247689463955,no,"{'log__penalty': 'l1', 'log__solver': 'liblinear'}"
+34,logreg,MENA,no shootings,0.9864364981504316,0.8634686346863468,0.8706099815157117,no,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+35,logreg,North America,no accomodation,1.0,0.9274193548387096,0.9107505070993915,no,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+36,logreg,North America,no arrests,0.975609756097561,0.8870967741935484,0.8113590263691683,yes,"{'log__penalty': 'l1', 'log__solver': 'liblinear'}"
+37,logreg,North America,no beatings,0.997289972899729,0.967741935483871,0.973630831643002,no,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+38,logreg,North America,no crowd_dispersal,0.997289972899729,0.8225806451612904,0.8093306288032455,no,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+39,logreg,North America,ignore,0.994579945799458,0.7661290322580645,0.5760649087221096,yes,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+40,logreg,North America,no killings,1.0,0.9596774193548387,0.9574036511156186,no,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+41,logreg,North America,no shootings,0.978319783197832,0.8629032258064516,0.9127789046653144,no,"{'log__penalty': 'l1', 'log__solver': 'liblinear'}"
+42,logreg,Central America,no accomodation,1.0,0.9259259259259259,0.916083916083916,no,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+43,logreg,Central America,no arrests,0.9657320872274143,0.8611111111111112,0.8834498834498834,no,"{'log__penalty': 'l1', 'log__solver': 'liblinear'}"
+44,logreg,Central America,no beatings,0.9968847352024922,0.9629629629629629,0.9673659673659674,no,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+45,logreg,Central America,no crowd_dispersal,0.9968847352024922,0.7592592592592593,0.6899766899766899,yes,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+46,logreg,Central America,ignore,0.9501557632398754,0.7685185185185185,0.5990675990675991,yes,"{'log__penalty': 'l1', 'log__solver': 'liblinear'}"
+47,logreg,Central America,no killings,1.0,0.9444444444444444,0.9533799533799534,no,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+48,logreg,Central America,no shootings,0.9968847352024922,0.8981481481481481,0.8834498834498834,no,"{'log__penalty': 'l2', 'log__solver': 'liblinear'}"
+49,rf,Europe,no accomodation,0.9899665551839465,0.9264828738512949,0.9220480668756531,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 4, 'rf__n_estimators': 300}"
+50,rf,Europe,no arrests,1.0,0.8897243107769424,0.8854754440961338,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 300}"
+51,rf,Europe,no beatings,1.0,0.9624060150375939,0.967816091954023,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+52,rf,Europe,no crowd_dispersal,0.999721293199554,0.8863826232247285,0.7684430512016719,yes,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+53,rf,Europe,ignore,0.9994425863991081,0.8546365914786967,0.6764890282131661,yes,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 300}"
+54,rf,Europe,no killings,1.0,0.9924812030075187,0.9928944618599791,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+55,rf,Europe,no shootings,1.0,0.9883040935672515,0.9914315569487984,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+56,rf,Africa,no accomodation,1.0,0.8824306472919419,0.8733884297520661,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+57,rf,Africa,no arrests,1.0,0.8269484808454426,0.8320661157024793,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+58,rf,Africa,no beatings,0.9911816578483245,0.9207397622192867,0.9226446280991736,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 4, 'rf__n_estimators': 100}"
+59,rf,Africa,no crowd_dispersal,0.9096119929453262,0.8256274768824307,0.5639669421487603,yes,"{'rf__max_depth': None, 'rf__min_samples_leaf': 3, 'rf__min_samples_split': 2, 'rf__n_estimators': 300}"
+60,rf,Africa,no ignore,0.9991181657848325,0.8295904887714664,0.5857851239669422,yes,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 300}"
+61,rf,Africa,no killings,1.0,0.9009247027741083,0.8981818181818182,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 300}"
+62,rf,Africa,no shootings,1.0,0.8797886393659181,0.871404958677686,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+63,rf,Asia,no accomodation,0.9819277108433735,0.8805555555555555,0.8756080611535789,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 4, 'rf__n_estimators': 100}"
+64,rf,Asia,no arrests,0.9990732159406858,0.8875,0.8485059068797776,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+65,rf,Asia,no beatings,1.0,0.9333333333333333,0.9204308547602502,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+66,rf,Asia,no crowd_dispersal,0.9884151992585728,0.8027777777777778,0.7029186935371786,yes,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 4, 'rf__n_estimators': 300}"
+67,rf,Asia,ignore,0.860982391102873,0.7611111111111111,0.5059068797776234,yes,"{'rf__max_depth': None, 'rf__min_samples_leaf': 3, 'rf__min_samples_split': 2, 'rf__n_estimators': 300}"
+68,rf,Asia,no killings,0.9847080630213161,0.9333333333333333,0.9444058373870744,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 4, 'rf__n_estimators': 300}"
+69,rf,Asia,no shootings,0.9995366079703429,0.9458333333333333,0.9503127171646977,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+70,rf,South America,no accomodation,0.8880407124681934,0.8854961832061069,0.8867684478371501,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 3, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+71,rf,South America,no arrests,1.0,0.8829516539440203,0.8842239185750637,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 300}"
+72,rf,South America,no beatings,1.0,0.9923664122137404,0.9872773536895675,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+73,rf,South America,no crowd_dispersal,1.0,0.8396946564885496,0.6762086513994912,yes,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+74,rf,South America,ignore,0.9906700593723494,0.7633587786259542,0.5674300254452926,yes,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 4, 'rf__n_estimators': 100}"
+75,rf,South America,no killings,0.9533502968617472,0.9287531806615776,0.9472010178117048,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 3, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+76,rf,South America,no shootings,0.9847328244274809,0.9745547073791349,0.9713740458015268,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 4, 'rf__n_estimators': 100}"
+77,rf,MENA,no accomodation,1.0,0.9298892988929889,0.9168207024029575,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+78,rf,MENA,no arrests,0.998766954377312,0.8487084870848709,0.8428835489833642,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+79,rf,MENA,no beatings,0.9778051787916153,0.922509225092251,0.9131238447319778,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 4, 'rf__n_estimators': 100}"
+80,rf,MENA,no crowd_dispersal,0.998766954377312,0.8265682656826568,0.6913123844731978,yes,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 300}"
+81,rf,MENA,no ignore,1.0,0.8339483394833949,0.5600739371534196,yes,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 4, 'rf__n_estimators': 100}"
+82,rf,MENA,no killings,0.8988902589395807,0.8819188191881919,0.8826247689463955,no,"{'rf__max_depth': 10, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+83,rf,MENA,no shootings,0.9790382244143033,0.8634686346863468,0.8706099815157117,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 4, 'rf__n_estimators': 300}"
+84,rf,North America,no accomodation,1.0,0.9435483870967742,0.9107505070993915,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+85,rf,North America,no arrests,0.8834688346883469,0.8951612903225806,0.8113590263691683,yes,"{'rf__max_depth': None, 'rf__min_samples_leaf': 3, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+86,rf,North America,no beatings,0.997289972899729,0.967741935483871,0.973630831643002,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+87,rf,North America,no crowd_dispersal,0.991869918699187,0.8629032258064516,0.8093306288032455,yes,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 4, 'rf__n_estimators': 300}"
+88,rf,North America,ignore,0.994579945799458,0.8629032258064516,0.5760649087221096,yes,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+89,rf,North America,no killings,1.0,0.9274193548387096,0.9574036511156186,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+90,rf,North America,no shootings,1.0,0.8870967741935484,0.9127789046653144,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+91,rf,Central America,no accomodation,1.0,0.9166666666666666,0.916083916083916,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+92,rf,Central America,no arrests,1.0,0.8518518518518519,0.8834498834498834,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+93,rf,Central America,no beatings,1.0,0.9537037037037037,0.9673659673659674,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+94,rf,Central America,no crowd_dispersal,0.9937694704049844,0.8055555555555556,0.6899766899766899,yes,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 4, 'rf__n_estimators': 100}"
+95,rf,Central America,ignore,1.0,0.75,0.5990675990675991,yes,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+96,rf,Central America,no killings,1.0,0.9444444444444444,0.9533799533799534,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+97,rf,Central America,no shootings,0.9003115264797508,0.8333333333333334,0.8834498834498834,no,"{'rf__max_depth': None, 'rf__min_samples_leaf': 3, 'rf__min_samples_split': 2, 'rf__n_estimators': 100}"
+98,svc,Europe,no accomodation,0.9949832775919732,0.9298245614035088,0.9220480668756531,no,"{'svc__C': 5, 'svc__degree': 2}"
+99,svc,Europe,no arrests,0.9913600891861761,0.9064327485380117,0.8854754440961338,no,"{'svc__C': 5, 'svc__degree': 2}"
+100,svc,Europe,no beatings,0.9980490523968785,0.9715956558061821,0.967816091954023,no,"{'svc__C': 5, 'svc__degree': 2}"
+101,svc,Europe,no crowd_dispersal,0.9927536231884058,0.8863826232247285,0.7684430512016719,yes,"{'svc__C': 5, 'svc__degree': 2}"
+102,svc,Europe,ignore,0.9838350055741361,0.8571428571428571,0.6764890282131661,yes,"{'svc__C': 5, 'svc__degree': 2}"
+103,svc,Europe,no killings,0.9988851727982163,0.9866332497911445,0.9928944618599791,no,"{'svc__C': 5, 'svc__degree': 2}"
+104,svc,Europe,no shootings,0.9980490523968785,0.9908103592314118,0.9914315569487984,no,"{'svc__C': 5, 'svc__degree': 2}"
+105,svc,Africa,no accomodation,0.9947089947089947,0.8916776750330251,0.8733884297520661,no,"{'svc__C': 5, 'svc__degree': 2}"
+106,svc,Africa,no arrests,0.9929453262786596,0.8718626155878467,0.8320661157024793,no,"{'svc__C': 5, 'svc__degree': 2}"
+107,svc,Africa,no beatings,0.9955908289241623,0.9273447820343461,0.9226446280991736,no,"{'svc__C': 5, 'svc__degree': 2}"
+108,svc,Africa,no crowd_dispersal,0.9925044091710759,0.7939233817701453,0.5639669421487603,yes,"{'svc__C': 5, 'svc__degree': 2}"
+109,svc,Africa,no ignore,0.9947089947089947,0.8163804491413474,0.5857851239669422,yes,"{'svc__C': 5, 'svc__degree': 2}"
+110,svc,Africa,no killings,0.9982363315696648,0.9220607661822986,0.8981818181818182,no,"{'svc__C': 5, 'svc__degree': 2}"
+111,svc,Africa,no shootings,0.996031746031746,0.9062087186261559,0.871404958677686,no,"{'svc__C': 5, 'svc__degree': 2}"
+112,svc,Asia,no accomodation,0.969416126042632,0.8777777777777778,0.8756080611535789,no,"{'svc__C': 5, 'svc__degree': 2}"
+113,svc,Asia,no arrests,0.9518072289156626,0.8402777777777778,0.8485059068797776,no,"{'svc__C': 5, 'svc__degree': 2}"
+114,svc,Asia,no beatings,0.9796107506950881,0.9236111111111112,0.9204308547602502,no,"{'svc__C': 5, 'svc__degree': 2}"
+115,svc,Asia,no crowd_dispersal,0.9582947173308619,0.7930555555555555,0.7029186935371786,yes,"{'svc__C': 5, 'svc__degree': 2}"
+116,svc,Asia,ignore,0.938368860055607,0.7777777777777778,0.5059068797776234,yes,"{'svc__C': 5, 'svc__degree': 2}"
+117,svc,Asia,no killings,0.9828544949026877,0.9458333333333333,0.9444058373870744,no,"{'svc__C': 5, 'svc__degree': 2}"
+118,svc,Asia,no shootings,0.9860982391102873,0.9597222222222223,0.9503127171646977,no,"{'svc__C': 5, 'svc__degree': 2}"
+119,svc,South America,no accomodation,0.9516539440203562,0.8854961832061069,0.8867684478371501,no,"{'svc__C': 5, 'svc__degree': 2}"
+120,svc,South America,no arrests,0.9601357082273113,0.8956743002544529,0.8842239185750637,no,"{'svc__C': 5, 'svc__degree': 2}"
+121,svc,South America,no beatings,0.996607294317218,0.989821882951654,0.9872773536895675,no,"{'svc__C': 5, 'svc__degree': 2}"
+122,svc,South America,no crowd_dispersal,0.9431721798134012,0.7964376590330788,0.6762086513994912,yes,"{'svc__C': 5, 'svc__degree': 2}"
+123,svc,South America,ignore,0.904156064461408,0.7862595419847328,0.5674300254452926,yes,"{'svc__C': 5, 'svc__degree': 2}"
+124,svc,South America,no killings,0.9796437659033079,0.9491094147582697,0.9472010178117048,no,"{'svc__C': 5, 'svc__degree': 2}"
+125,svc,South America,no shootings,0.993214588634436,0.9770992366412213,0.9713740458015268,no,"{'svc__C': 5, 'svc__degree': 2}"
+126,svc,MENA,no accomodation,0.9889025893958077,0.940959409594096,0.9168207024029575,no,"{'svc__C': 5, 'svc__degree': 2}"
+127,svc,MENA,no arrests,0.9765721331689272,0.8671586715867159,0.8428835489833642,no,"{'svc__C': 5, 'svc__degree': 2}"
+128,svc,MENA,no beatings,0.9864364981504316,0.8819188191881919,0.9131238447319778,no,"{'svc__C': 5, 'svc__degree': 2}"
+129,svc,MENA,no crowd_dispersal,0.9753390875462392,0.8118081180811808,0.6913123844731978,yes,"{'svc__C': 5, 'svc__degree': 2}"
+130,svc,MENA,no ignore,0.9716399506781751,0.7306273062730627,0.5600739371534196,yes,"{'svc__C': 5, 'svc__degree': 2}"
+131,svc,MENA,no killings,0.9889025893958077,0.8597785977859779,0.8826247689463955,no,"{'svc__C': 5, 'svc__degree': 2}"
+132,svc,MENA,no shootings,0.9790382244143033,0.8745387453874539,0.8706099815157117,no,"{'svc__C': 5, 'svc__degree': 2}"
+133,svc,North America,no accomodation,0.997289972899729,0.9032258064516129,0.9107505070993915,no,"{'svc__C': 5, 'svc__degree': 2}"
+134,svc,North America,no arrests,0.991869918699187,0.8790322580645161,0.8113590263691683,yes,"{'svc__C': 5, 'svc__degree': 2}"
+135,svc,North America,no beatings,1.0,0.9758064516129032,0.973630831643002,no,"{'svc__C': 5, 'svc__degree': 2}"
+136,svc,North America,no crowd_dispersal,0.981029810298103,0.9274193548387096,0.8093306288032455,yes,"{'svc__C': 5, 'svc__degree': 2}"
+137,svc,North America,ignore,0.986449864498645,0.7419354838709677,0.5760649087221096,yes,"{'svc__C': 5, 'svc__degree': 2}"
+138,svc,North America,no killings,1.0,0.9596774193548387,0.9574036511156186,no,"{'svc__C': 5, 'svc__degree': 2}"
+139,svc,North America,no shootings,0.991869918699187,0.9112903225806451,0.9127789046653144,no,"{'svc__C': 5, 'svc__degree': 2}"
+140,svc,Central America,no accomodation,0.9937694704049844,0.8888888888888888,0.916083916083916,no,"{'svc__C': 5, 'svc__degree': 2}"
+141,svc,Central America,no arrests,0.9937694704049844,0.8703703703703703,0.8834498834498834,no,"{'svc__C': 5, 'svc__degree': 2}"
+142,svc,Central America,no beatings,0.9937694704049844,0.9814814814814815,0.9673659673659674,no,"{'svc__C': 5, 'svc__degree': 2}"
+143,svc,Central America,no crowd_dispersal,0.9906542056074766,0.8148148148148148,0.6899766899766899,yes,"{'svc__C': 5, 'svc__degree': 2}"
+144,svc,Central America,ignore,0.9968847352024922,0.7777777777777778,0.5990675990675991,yes,"{'svc__C': 5, 'svc__degree': 2}"
+145,svc,Central America,no killings,0.9968847352024922,0.9629629629629629,0.9533799533799534,no,"{'svc__C': 5, 'svc__degree': 2}"
+146,svc,Central America,no shootings,1.0,0.8888888888888888,0.8834498834498834,no,"{'svc__C': 5, 'svc__degree': 2}"
+147,xgb,Europe,no accomodation,0.95958751393534,0.9314954051796157,0.9220480668756531,no,{'xg__max_depth': 2}
+148,xgb,Europe,no arrests,0.9927536231884058,0.9264828738512949,0.8854754440961338,no,{'xg__max_depth': None}
+149,xgb,Europe,no beatings,0.9905239687848384,0.9615705931495405,0.967816091954023,no,{'xg__max_depth': 2}
+150,xgb,Europe,no crowd_dispersal,0.9902452619843924,0.8922305764411027,0.7684430512016719,yes,{'xg__max_depth': None}
+151,xgb,Europe,ignore,0.9205685618729097,0.8462823725981621,0.6764890282131661,yes,{'xg__max_depth': 3}
+152,xgb,Europe,no killings,1.0,0.9924812030075187,0.9928944618599791,no,{'xg__max_depth': None}
+153,xgb,Europe,no shootings,0.9994425863991081,0.9832915622389307,0.9914315569487984,no,{'xg__max_depth': None}
+154,xgb,Africa,no accomodation,0.9462081128747796,0.8837516512549538,0.8733884297520661,no,{'xg__max_depth': 2}
+155,xgb,Africa,no arrests,0.996031746031746,0.8996036988110965,0.8320661157024793,yes,{'xg__max_depth': None}
+156,xgb,Africa,no beatings,0.966931216931217,0.9484808454425363,0.9226446280991736,no,{'xg__max_depth': 2}
+157,xgb,Africa,no crowd_dispersal,0.95326278659612,0.8282694848084544,0.5639669421487603,yes,{'xg__max_depth': 3}
+158,xgb,Africa,no ignore,0.9259259259259259,0.8295904887714664,0.5857851239669422,yes,{'xg__max_depth': 3}
+159,xgb,Africa,no killings,1.0,0.9299867899603699,0.8981818181818182,no,{'xg__max_depth': None}
+160,xgb,Africa,no shootings,0.9620811287477954,0.916776750330251,0.871404958677686,no,{'xg__max_depth': 2}
+161,xgb,Asia,no accomodation,0.9309545875810936,0.8763888888888889,0.8756080611535789,no,{'xg__max_depth': 2}
+162,xgb,Asia,no arrests,0.9721964782205746,0.8611111111111112,0.8485059068797776,no,{'xg__max_depth': None}
+163,xgb,Asia,no beatings,0.9698795180722891,0.9277777777777778,0.9204308547602502,no,{'xg__max_depth': 3}
+164,xgb,Asia,no crowd_dispersal,0.9161260426320668,0.7902777777777777,0.7029186935371786,yes,{'xg__max_depth': 3}
+165,xgb,Asia,ignore,0.8354958294717331,0.7861111111111111,0.5059068797776234,yes,{'xg__max_depth': 2}
+166,xgb,Asia,no killings,0.969416126042632,0.9638888888888889,0.9444058373870744,no,{'xg__max_depth': 2}
+167,xgb,Asia,no shootings,0.9800741427247451,0.9361111111111111,0.9503127171646977,no,{'xg__max_depth': 2}
+168,xgb,South America,no accomodation,0.9940627650551315,0.9007633587786259,0.8867684478371501,no,{'xg__max_depth': None}
+169,xgb,South America,no arrests,0.9499575911789653,0.8829516539440203,0.8842239185750637,no,{'xg__max_depth': 2}
+170,xgb,South America,no beatings,1.0,0.9821882951653944,0.9872773536895675,no,{'xg__max_depth': None}
+171,xgb,South America,no crowd_dispersal,0.9338422391857506,0.8371501272264631,0.6762086513994912,yes,{'xg__max_depth': 3}
+172,xgb,South America,ignore,0.8914334181509754,0.7862595419847328,0.5674300254452926,yes,{'xg__max_depth': 3}
+173,xgb,South America,no killings,0.996607294317218,0.9440203562340967,0.9472010178117048,no,{'xg__max_depth': None}
+174,xgb,South America,no shootings,0.9889737065309584,0.9541984732824428,0.9713740458015268,no,{'xg__max_depth': 2}
+175,xgb,MENA,no accomodation,1.0,0.922509225092251,0.9168207024029575,no,{'xg__max_depth': None}
+176,xgb,MENA,no arrests,0.969173859432799,0.8634686346863468,0.8428835489833642,no,{'xg__max_depth': 3}
+177,xgb,MENA,no beatings,0.9716399506781751,0.8929889298892989,0.9131238447319778,no,{'xg__max_depth': 2}
+178,xgb,MENA,no crowd_dispersal,0.9297163995067818,0.8007380073800738,0.6913123844731978,yes,{'xg__max_depth': 2}
+179,xgb,MENA,no ignore,0.9161528976572133,0.7970479704797048,0.5600739371534196,yes,{'xg__max_depth': 2}
+180,xgb,MENA,no killings,0.9642416769420469,0.8892988929889298,0.8826247689463955,no,{'xg__max_depth': 2}
+181,xgb,MENA,no shootings,0.9778051787916153,0.8634686346863468,0.8706099815157117,no,{'xg__max_depth': 3}
+182,xgb,North America,no accomodation,1.0,0.8951612903225806,0.9107505070993915,no,{'xg__max_depth': None}
+183,xgb,North America,no arrests,0.997289972899729,0.8870967741935484,0.8113590263691683,yes,{'xg__max_depth': None}
+184,xgb,North America,no beatings,0.997289972899729,0.9919354838709677,0.973630831643002,no,{'xg__max_depth': None}
+185,xgb,North America,no crowd_dispersal,0.997289972899729,0.8548387096774194,0.8093306288032455,no,{'xg__max_depth': 3}
+186,xgb,North America,ignore,0.994579945799458,0.7741935483870968,0.5760649087221096,yes,{'xg__max_depth': None}
+187,xgb,North America,no killings,1.0,0.9274193548387096,0.9574036511156186,no,{'xg__max_depth': None}
+188,xgb,North America,no shootings,0.983739837398374,0.9032258064516129,0.9127789046653144,no,{'xg__max_depth': 2}
+189,xgb,Central America,no accomodation,0.9968847352024922,0.9259259259259259,0.916083916083916,no,{'xg__max_depth': None}
+190,xgb,Central America,no arrests,0.9875389408099688,0.8888888888888888,0.8834498834498834,no,{'xg__max_depth': 2}
+191,xgb,Central America,no beatings,0.9968847352024922,0.9629629629629629,0.9673659673659674,no,{'xg__max_depth': 3}
+192,xgb,Central America,no crowd_dispersal,0.9875389408099688,0.8425925925925926,0.6899766899766899,yes,{'xg__max_depth': 3}
+193,xgb,Central America,ignore,0.9532710280373832,0.7962962962962963,0.5990675990675991,yes,{'xg__max_depth': 2}
+194,xgb,Central America,no killings,1.0,0.9166666666666666,0.9533799533799534,no,{'xg__max_depth': None}
+195,xgb,Central America,no shootings,0.9875389408099688,0.8888888888888888,0.8834498834498834,no,{'xg__max_depth': 2}
